@@ -1,15 +1,43 @@
-
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: daniel;
+  font-style: normal;
+  src: url('./assets/Fonts/daniel.ttf');
+}
+
+@font-face {
+  font-family: danielbd;
+  font-style: normal;
+  src: url('./assets/Fonts/danielbd.ttf');
+}
+
+@font-face {
+  font-family: danielbk;
+  font-style: normal;
+  src: url('./assets/Fonts/danielbk.ttf');
+}
+
+@font-face {
+  font-family: txt_IV25;
+  font-style: normal;
+  src: url('./assets/Fonts/txt_IV25.ttf');
+}
+
+@font-face {
+  font-family: txt_IV50;
+  font-style: normal;
+  src: url('./assets/Fonts/txt_IV50.ttf');
 }

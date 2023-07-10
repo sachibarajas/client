@@ -1,3 +1,14 @@
 .socialMedia{
     width: 35px;
 }
+
+.navBar{
+    /* background-image: url('../../assets/pag\ web\ full-22.svg'); */
+    border: 1px green solid;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.textButton{
+    font-family: Arial, Helvetica, sans-serif;
+}
