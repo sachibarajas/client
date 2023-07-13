@@ -4,9 +4,13 @@ import s from './Home.module.css';
 import astronaut from '../../assets/astronauta_partes.svg';
 import planet2 from '../../assets/planet2.svg';
 import planet3 from '../../assets/planet3.svg';
+
+//Imagenes del fondo
 import backGround from '../../assets/planetas separados/tres-juntos.svg';
 import backGround2 from '../../assets/planetas separados/planet separados-03.svg';
+import backGround3 from '../../assets/planetas separados/planet separados-02.svg'
 
+//planeta 1
 import planet1_1 from '../../assets/planetas separados/planet separados-04.svg';
 import planet1_2 from '../../assets/planetas separados/planet separados-05.svg';
 import planet1_3 from '../../assets/planetas separados/planet separados-06.svg'
@@ -16,6 +20,7 @@ export const Home: React.FC<{}> = () => {
         <Container maxWidth='xl' className={s.homeContainer}>
             <img src={backGround} alt="" className={s.backGround}/>
             <img src={backGround2} alt="" className={s.backGround2}/>
+            <img src={backGround3} alt="" className={s.backGround3}/>
             
             <Grid container 
                 // justifyContent='flex-start' 
@@ -32,7 +37,7 @@ export const Home: React.FC<{}> = () => {
                         {/* <Box ><img src={planet1} alt='planet 1' className={s.aboutMe}/></Box> */}
                         <Box >
                             <Link to='/aboutme' className={s.link}>
-                                <Typography variant='h3' className={s.aboutMeTxt}>About me</Typography>
+                                <Typography variant= 'h3' className={s.aboutMeTxt}>About me</Typography>
                                 <img src={planet1_1} alt='planet 1' className={s.aboutMe}/>
                                 <img src={planet1_2} alt='planet 1' className={s.aboutMe}/>
                                 <img src={planet1_3} alt='planet 1' className={s.aboutMe3}/>
@@ -45,7 +50,12 @@ export const Home: React.FC<{}> = () => {
                                 <img src={planet2} alt='planet 2' className={s.tech}/>
                             </Link>
                         </Box>
-                        <Box ><img src={planet3} alt='planet 3' className={s.projects}/></Box>
+                        <Box >
+                            <Link to='/projects'>
+                                <Typography variant= 'h3' className={s.projectsTxt}>Projects</Typography>
+                                <img src={planet3} alt='planet 3' className={s.projects}/>
+                            </Link>
+                        </Box>
                    </Stack>
                 </Grid>
             </Grid>

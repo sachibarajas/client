@@ -1,9 +1,6 @@
 import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import React from "react";
 
-const daniel = require('../assets/Fonts/daniel.ttf');
-const danielbd = require('../assets/Fonts/danielbd.ttf')
-
 type ThemeProp = {
     children: JSX.Element
 }
@@ -30,12 +27,22 @@ const theme = createTheme({
     },
     typography:{
         fontFamily: themePalette.FONT_TITLES,
+
+        h2: {
+            fontFamily: 'txt_IV50',
+            color: themePalette.TITLE1,
+            fontSize: '0.8rem',
+            fontWeight: 'bolder',
+            letterSpacing: '0.5em'
+            
+        },
         h3: {
             fontFamily: 'txt_IV50',
             color: themePalette.TITLE1,
-            fontSize: '1.2rem',
+            fontSize: '1rem',
             fontWeight: 'bolder',
-            wordSpacing: '15px'
+            letterSpacing: '0.5em'
+            
         }
     },
     components:{
@@ -47,7 +54,8 @@ const theme = createTheme({
                     borderRadius: '0.5em',
                     color: themePalette.TEXT,
                     fontFamily: 'txt_IV50',
-                    fontWeight: 'bolder'
+                    fontWeight: 'bolder',
+                    width: 'fit-content',
                 }
             }
         },
@@ -60,6 +68,15 @@ const theme = createTheme({
                 }
             }
         },
+        MuiSelect:{
+            defaultProps:{
+                style:{
+                    border: 'none',
+                    fontFamily: 'txt_IV50',
+                    fontSize: '0.7rem'
+                }
+            }
+        }
     }
 })
 

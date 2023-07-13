@@ -1,5 +1,5 @@
 .homeContainer{
-    background-image: url('../../assets/Fondo-desktop.svg');
+    background-image: url('../../assets/Fondo-inicio.png');
     background-size: cover;
     align-content: center;
     position: relative;
@@ -18,6 +18,13 @@
     right: 6%;
     position: absolute;
     width: 6vw;
+}
+
+.backGround3{
+    position: absolute;
+    bottom: 35%;
+    right: 33%;
+    width: 4vw;
 }
 
 .astronautImg{
@@ -51,11 +58,11 @@
 .aboutMeTxt{
     position: absolute;
     bottom: 20%;
-    left: 9%;
+    left: 8%;
 }
 
 .aboutMeTxt:hover {
-    filter: drop-shadow(5px -2px 4px #5b403c5c);
+    filter: drop-shadow(5px -2px 2px #5b403c5c);
     /* text-decoration:underline wavy;    */
 }
 
@@ -88,4 +95,19 @@
     right: 12%;
     width: 13vw;
     mix-blend-mode: multiply;
+}
+
+.projects:hover {
+    filter: drop-shadow(15px 5px 5px #5b403c5c);
+}
+
+.projectsTxt{
+    position: absolute;
+    right: 11%;
+    bottom: 11%;
+}
+
+.projectsTxt:hover {
+    filter: drop-shadow(5px -2px 2px #5b403c5c);
+    /* text-decoration:underline wavy;    */
 }
