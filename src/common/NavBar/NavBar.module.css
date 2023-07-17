@@ -5,6 +5,10 @@
     /* border: 1px rebeccapurple solid; */
 }
 
+.socialMedia:hover{
+    filter: drop-shadow(5px -2px 2px #5b403c5c);
+}
+
 .navBar{
     align-content: center;
     min-width: 18vw;

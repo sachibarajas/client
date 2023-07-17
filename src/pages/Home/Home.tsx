@@ -1,9 +1,11 @@
 import { Box, Container, Grid, Stack, Typography } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import s from './Home.module.css';
+
 import astronaut from '../../assets/astronauta_partes.svg';
 import planet2 from '../../assets/planet2.svg';
-import planet3 from '../../assets/planet3.svg';
+
 
 //Imagenes del fondo
 import backGround from '../../assets/planetas separados/tres-juntos.svg';
@@ -13,8 +15,14 @@ import backGround3 from '../../assets/planetas separados/planet separados-02.svg
 //planeta 1
 import planet1_1 from '../../assets/planetas separados/planet separados-04.svg';
 import planet1_2 from '../../assets/planetas separados/planet separados-05.svg';
-import planet1_3 from '../../assets/planetas separados/planet separados-06.svg'
-import { Link } from 'react-router-dom';
+import planet1_3 from '../../assets/planetas separados/planet separados-06.svg';
+
+//planeta 3
+import planet3_1 from '../../assets/planetas separados/proyects01.svg';
+import planet3_2 from '../../assets/planetas separados/proyects02.svg';
+import planet3_3 from '../../assets/planetas separados/proyects03.svg';
+
+
 export const Home: React.FC<{}> = () => {
     return(
         <Container maxWidth='xl' className={s.homeContainer}>
@@ -53,7 +61,9 @@ export const Home: React.FC<{}> = () => {
                         <Box >
                             <Link to='/projects'>
                                 <Typography variant= 'h3' className={s.projectsTxt}>Projects</Typography>
-                                <img src={planet3} alt='planet 3' className={s.projects}/>
+                                <img src={planet3_1} alt='planet 3' className={s.projects}/>
+                                <img src={planet3_2} alt='planet 3' className={s.projects2}/>
+                                <img src={planet3_3} alt='planet 3' className={s.projects3}/>
                             </Link>
                         </Box>
                    </Stack>

@@ -1,0 +1,56 @@
+.AboutMe{
+    background-image: url('../../assets/Fondo-desktop2.svg');
+    /* mix-blend-mode: multiply; */
+    background-size: cover;
+    align-content: center;
+    position: relative;
+    padding: 0px;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.diagram{
+    position: absolute;
+    top: 7%;
+    left: 12%;
+    width: 65vw;
+}
+
+.downloadCv{
+    position: absolute;
+    width: 11vw;
+    mix-blend-mode: multiply;
+    bottom: 4%;
+    right: 10%;
+    border: 1px saddlebrown solid;
+}
+
+.astronaut{
+    position: absolute;
+    width: 11vw;
+    mix-blend-mode: multiply;
+    bottom: 5%;
+    right: 10.5%;
+    transform: rotate(-10deg);
+}
+
+.textDownload{
+    position: absolute;
+    font-family: daniel;
+    color: white;
+    bottom: 20%;
+    right: 9%;
+}
+
+.textDownload:hover{
+    right: 8%;
+    font-family: danielbd;
+}
+
+.textBG{
+    position: absolute;
+    width: 20%;
+    bottom: 18%;
+    right: 6%;
+    opacity: 1;
+}

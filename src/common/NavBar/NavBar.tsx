@@ -19,6 +19,7 @@ export const NavBar: React.FC<{}> = () => {
                                         <Link to='/'><Button sx={{marginLeft: '20px'}} >Home</Button></Link>
                                         <Link to='/projects'><Button sx={{marginLeft: '20px'}} >Projects</Button></Link>
                                         <Link to='/aboutme'><Button sx={{marginLeft: '20px'}} >About Me</Button></Link>
+                                        <Link to='/tech'><Button sx={{marginLeft: '20px'}} >Tech</Button></Link>
                                     </Box>}
                                    <Box display='flex' flexDirection='row' alignContent='center' alignItems='center'>
                                         

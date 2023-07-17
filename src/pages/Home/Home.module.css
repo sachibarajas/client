@@ -86,7 +86,6 @@
 
 .techTxt:hover {
     filter: drop-shadow(5px -2px 2px #5b403c5c);
-    /* text-decoration:underline wavy;    */
 }
 
 .projects{
@@ -94,11 +93,30 @@
     bottom: 19%;
     right: 12%;
     width: 13vw;
-    mix-blend-mode: multiply;
+
 }
 
-.projects:hover {
-    filter: drop-shadow(15px 5px 5px #5b403c5c);
+.projects2{
+    position: absolute;
+    bottom: 19%;
+    right: 12%;
+    width: 13vw;
+    mix-blend-mode: hard-light;
+
+}
+
+.projects3{
+    position: absolute;
+    bottom: 19%;
+    right: 12%;
+    width: 13vw;
+    mix-blend-mode: soft-light;
+    /* opacity: 0.9; */
+
+}
+
+.projects3:hover {
+    filter: drop-shadow(15px 15px  #5b403c90);
 }
 
 .projectsTxt{
@@ -109,5 +127,4 @@
 
 .projectsTxt:hover {
     filter: drop-shadow(5px -2px 2px #5b403c5c);
-    /* text-decoration:underline wavy;    */
 }
