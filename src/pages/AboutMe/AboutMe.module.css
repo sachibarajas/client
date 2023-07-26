@@ -1,12 +1,9 @@
 .AboutMe{
     background-image: url('../../assets/Fondo-desktop2.svg');
-    /* mix-blend-mode: multiply; */
     background-size: cover;
     align-content: center;
     position: relative;
-    padding: 0px;
     height: 100vh;
-    margin-top: 0px;
 }
 
 .diagram{

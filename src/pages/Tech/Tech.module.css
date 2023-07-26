@@ -1,0 +1,6 @@
+.Tech{
+    border: 1px #CFBFA8 solid;
+    background-image: url('../../assets/fondo-tech.png');
+    background-size: cover;
+    height: 100vh;
+}
