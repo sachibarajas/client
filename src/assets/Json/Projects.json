@@ -3,7 +3,7 @@
         "name": "Countries Individual Project",
         "description": "Fullstack web application that relates the countries of the world and the activities that can be done in them. It allows the users to create any activity and relate it to as many countries as they want. It also shows relevant information about all the countries of the world",
         "frontEnd": {
-            "graphicConcept": "Based on the early stages of aviation and the birth of aerial travel. It includes vintage details and images that transport the users to the first decade of the twentieth century. The fonts used in the project are the same that were used in printed documents of that time",
+            "graphicConcept": "Early stages of aviation. Vintage style. Uses typographies from the first ",
             "graphicDesigner": "https://www.instagram.com/eli.creanding/",
             "responsive": "No",
             "wiews": [{
@@ -27,7 +27,20 @@
         },
         "backEnd": {
             "description":"CRUD API that filters and serves information for the frontEnd",
-            "routes":""
+            "routes":[
+                {
+                    "route": "GET| /countries",
+                    "description": "Recieves via query the filter and organization parameters from the client and obtains an array of objects where each object is a country with all of its information"
+                },
+                {
+                    "route": "GET| /countries/:id",
+                    "description": "Recieves the ID of a country and obtains the detailed information of the country that was requested"
+                },
+                {
+                    "route": "POST| /activities",
+                    "description": "Recieves all the information necessary to create a new activity and stores it in the database"
+                }
+            ]
         }
     }   
 ]
